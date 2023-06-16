@@ -1,0 +1,23 @@
+{
+  "name": "challenge-ignite-nodejs-01",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "import:csv": "node src/streams/import-data-from-csv.js"
+  },
+  "keywords": [
+    "ignite",
+    "challenge",
+    "csv",
+    "streams",
+    "crud"
+  ],
+  "author": "Leonardo do Nascimento",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.4.0"
+  }
+}
